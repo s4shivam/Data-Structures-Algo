@@ -36,21 +36,16 @@ int main() {
 	vector<int> arr{INT_MAX,9,6,5,0,8,2,7,1,3};
 	cout<<"Before Heapify : ";
 	for(int i=1;i<=arr.size()-1;i++)     cout<<arr[i]<<" ";
-  
 	for(int i=floor((double)(arr.size()-1)/(double)2);i>=1;i--) {
     	max_heapify(arr,i);
   	}
-  
 	cout<<endl<<" After max Heapify : ";
-	
   	for(int i=1;i<=arr.size()-1;i++)     cout<<arr[i]<<" ";
-	
 	for(int i=floor((double)(arr.size()-1)/(double)2);i>=1;i--) {
     	min_heapify(arr,i);
   	}
   	cout<<endl<<" After min Heapify : ";
   	for(int i=1;i<=arr.size()-1;i++)
     	cout<<arr[i]<<" ";
-	
 	return 0;
 }
