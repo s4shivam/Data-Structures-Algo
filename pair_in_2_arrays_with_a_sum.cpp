@@ -10,9 +10,8 @@ bool findpair(vector<int>&V,vector<int>&A,int sum){
       return 1;
     }
     else{
-      // if(V[first]+A[last] > sum )
-      // {
-      //   last--;
+      // if(V[first]+A[last] > sum ){
+         //   last--;
       // }
       // else{
       //   first++;
