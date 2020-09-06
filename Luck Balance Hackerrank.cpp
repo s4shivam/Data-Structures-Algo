@@ -1,7 +1,7 @@
 bool f(int x,int y){
     return x>y;
 }
-// Complete the luckBalance function below.
+// Complete the luckBalance function below..
 int luckBalance(int k, vector<vector<int>> contests) {
     vector<int> V;
     int luck = 0;
